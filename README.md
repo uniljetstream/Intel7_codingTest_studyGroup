@@ -23,10 +23,7 @@
   - **항상 본인 브렌치에서 작업하고 업로드 하세요!!!**
 
 ## 3. 업로드 설정
-
-1. 원격저장소 생성
-   - git remote add origin https://github.com/uniljetstream/Intel7_codingTest_studyGroup.git
-2. 업스트림 설정
+1. 업스트림 설정
    - git push -u origin 본인브랜치이름
    - ex) git push -u origin beakjoon
 
