@@ -28,8 +28,6 @@
    - ex) git push -u origin beakjoon
 
 ## 4. 업로드 및 다운로드 방법
-git에는 3가지 작업 영역이 있습니다. 따라서 4단계를 거쳐야 합니다.
-
 1. git status
    - 변경 사항을 확인한다. (변경 내용이 있을 경우 파일 이름이 빨간색으로 보임)
 2. git add . 또는 git add 변경파일
