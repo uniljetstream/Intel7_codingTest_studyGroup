@@ -19,7 +19,7 @@
 5. cd codingtest/Intel7_codingTest_studyGroup
 6. git checkout 본인 깃허브 닉네임
    - ex) git checkout beakjoon
-8. 경로 옆에 괄호로 본인 깃허브 닉네임으로 변경된 것 확인]
+8. 경로 옆에 괄호로 본인 깃허브 닉네임으로 변경된 것 확인
   - **항상 본인 브렌치에서 작업하고 업로드 하세요!!!**
 
 ## 3. 업로드 설정
