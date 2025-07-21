@@ -45,3 +45,5 @@
 5. git pull origin main
    - main 브랜치에 올라가 있는 이번주 풀 문제, 공지 등 자동으로 로컬로 다운로드됨.
    - 충돌이 날경우 해당 부분을 직접 수정 후 git add > git commit > git push를 차례로 수행
+
+git bash에서는 리눅스 명령어 사용 가능 ls, cd, mkdir, cd, cp 등.......
