@@ -1,0 +1,16 @@
+git init // 깃을 시작합니다 main으로 들어감
+
+항상 Intel7_codingTest_studyGroup 디렉터리를 접근 후에 시도하세요
+
+git checkout SulfurCamp // 내 branch를 들어갑니다. main에서 풀하거나 푸쉬를 하면 머리가 아파집니다.
+
+git checkout main // main branch로 들어갑니다.
+
+git add . // 모든 파일이 스테이징 상태로 갑니다.
+
+git commit -m " " // " " 안에 commit 내용을 채우세요. 이번 주 풀어본 알고리즘, 코멘트를 다세요.
+
+git push origin 본인 브랜치 이름 // 나는 git push origin SulfurCamp
+
+git push origin main // 메인 브랜치에 있는 이번주 풀 문제, 공지 등 자동으로 로컬로 다운로드 됩니다.
+
