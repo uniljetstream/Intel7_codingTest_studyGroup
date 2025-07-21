@@ -77,3 +77,4 @@ dkms.conf
 # End of https://www.toptal.com/developers/gitignore/api/c,c++
 
 *.txt
+.vscode/
