@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="12833.cpp">
+    <ClCompile Include="CodingTest_SulfurCamp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12833.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
