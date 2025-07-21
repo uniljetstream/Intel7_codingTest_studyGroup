@@ -1,5 +1,7 @@
 # 인텔 7기 코딩 테스트 스터디 레포
 
+최초 한 번은 깃허브 로그인 해서 들어와서 초대 수락하기
+
 ## 1. git bash 설치
 
 [https://git-scm.com/downloads](https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-64-bit.exe)
@@ -24,7 +26,7 @@
 2. 업스트림 설정
   - git push -u origin [본인브랜치이름]
 
-## 4. 업로드 방법
+## 4. 업로드 및 다운로드 방법
 git에는 3가지 작업 영역이 있습니다. 따라서 3단계를 거쳐야 합니다.
 
 1. git add .
@@ -35,3 +37,7 @@ git에는 3가지 작업 영역이 있습니다. 따라서 3단계를 거쳐야 
 3. git push origin 본인브랜치이름
   - 원격 저장소(GitHub의)에 최종적으로 올라감. 반드시 본인 브랜치에 업로드 할 것.
   - 남 브랜치에 등록하지 말 것. 해결하기 힘듬.
+---
+- 선택사항
+4. git push origin main
+  - main 브랜치에 올라가 있는 이번주 풀 문제, 공지 등 자동으로 로컬로 다운로드됨.
