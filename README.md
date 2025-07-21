@@ -17,7 +17,7 @@
 3. git init
 4. git clone https://github.com/uniljetstream/Intel7_codingTest_studyGroup.git
 5. cd codingtest/Intel7_codingTest_studyGroup
-6. git checkout [본인 깃허브 닉네임]
+6. git checkout 본인 깃허브 닉네임
 7. 경로 옆에 괄호로 본인 깃허브 닉네임으로 변경된 것 확인]
   - **항상 본인 브렌치에서 작업하고 업로드 하세요!!!**
 
@@ -26,14 +26,14 @@
 1. 원격저장소 생성
   - git remote add origin https://github.com/uniljetstream/Intel7_codingTest_studyGroup.git
 2. 업스트림 설정
-  - git push -u origin [본인브랜치이름]
+  - git push -u origin 본인브랜치이름
 
 ## 4. 업로드 및 다운로드 방법
 git에는 3가지 작업 영역이 있습니다. 따라서 3단계를 거쳐야 합니다.
 
 1. git add .
    - 모든 파일이 스테이징 상태로 간다.
-2. git commit -m "[이번주푼알고리즘, 하고싶은 코멘트]"
+2. git commit -m "이번주푼알고리즘, 하고싶은 코멘트"
    - 실제 GitHub에 등록되기 전 로컬 저장소
    - 따옴표 안에 내용 반드시 채울 것! 아니면 오류남. 알아서 해결하셈
 3. git push origin 본인브랜치이름
