@@ -16,7 +16,7 @@
 2. 해당 디렉토리에 마우스 오른쪽 클릭, Open Git Bash Here 클릭
 3. git init
 4. git clone https://github.com/uniljetstream/Intel7_codingTest_studyGroup.git
-5. cd codingtest/Intel7_codingTest_studyGroup
+5. cd Intel7_codingTest_studyGroup
 6. git checkout 본인 깃허브 닉네임
    - ex) git checkout beakjoon
 8. 경로 옆에 괄호로 본인 깃허브 닉네임으로 변경된 것 확인
