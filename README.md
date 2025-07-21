@@ -28,7 +28,7 @@
    - git remote add origin https://github.com/uniljetstream/Intel7_codingTest_studyGroup.git
 2. 업스트림 설정
    - git push -u origin 본인브랜치이름
-   - ex) git push -u origin beakjoon
+   -    ex) git push -u origin beakjoon
 
 ## 4. 업로드 및 다운로드 방법
 git에는 3가지 작업 영역이 있습니다. 따라서 4단계를 거쳐야 합니다.
