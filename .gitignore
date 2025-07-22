@@ -78,3 +78,4 @@ dkms.conf
 
 *.txt
 .vscode/
+.clang-format
