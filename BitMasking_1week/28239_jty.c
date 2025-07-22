@@ -21,7 +21,7 @@ int main(void)
         {
             if (m[i] & (m[i] - 1))
             {
-                if (m[i] & (1 << j))
+                if (m[i] & ((long long)1 << j))
                 {
                     count++;
                     if (count == 1)
@@ -37,7 +37,7 @@ int main(void)
             }
             else
             {
-                if ((m[i] >> 1) & (1 << j))
+                if ((m[i] >> 1) & ((long long)1 << j))
                 {
                     x = j;
                     y = j;
