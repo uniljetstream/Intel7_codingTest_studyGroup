@@ -7,14 +7,9 @@ int main()
 	int result;
 	
 	scanf("%d %d %d", &A, &B, &C);
-	if (C % 2)
-	{
-		result = A ^ B;
-	}
-	else
-	{
-		result = (A ^ B) ^ B;
-	}
+	if (C % 2) result = A ^ B;
+	else result = (A ^ B) ^ B;
+
 	printf("%d", result);
 
 	return 0;
