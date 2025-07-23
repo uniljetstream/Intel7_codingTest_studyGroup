@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /*
-* b¸¦ °è¼Ó XOR ÇÏ¸é 2°³ÀÇ °ªÀÌ °è¼Ó ¹Ýº¹µÊ
-* µû¶ó¼­ c È½¼ö¸¦ ÀüºÎ ÇØÁÙ ÇÊ¿ä ¾øÀ½
+* bë¥¼ ê³„ì† XOR í•˜ë©´ 2ê°œì˜ ê°’ì´ ê³„ì† ë°˜ë³µë¨
+* ë”°ë¼ì„œ c íšŸìˆ˜ë¥¼ ì „ë¶€ í•´ì¤„ í•„ìš” ì—†ìŒ
 */
 
 int main() {
