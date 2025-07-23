@@ -7,7 +7,7 @@ int main()
 {
 	int n;
 	long long m[10000] = { 0 };
-	int xy_array[2] = { 0 };  //2ÀÇ Áö¼ö°ªÀÇ ¹è¿­
+	int xy_array[2] = { 0 };  //2ì˜ ì§€ìˆ˜ê°’ì˜ ë°°ì—´
 	int* pxy_array = xy_array;
 	long long mask = 1;
 	scanf("%d", &n);
@@ -32,7 +32,7 @@ int main()
 		}
 		
 
-		if (!xy_array[1])  //mÀÌ 2ÀÇÁ¦°ö±Ù
+		if (!xy_array[1])  //mì´ 2ì˜ì œê³±ê·¼
 		{
 			xy_array[0] = xy_array[0]-1;
 			xy_array[1] = xy_array[0];
