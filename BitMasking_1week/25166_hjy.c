@@ -1,5 +1,5 @@
 //배고픈 아리의 샌드위치 구매하기
-
+//
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
