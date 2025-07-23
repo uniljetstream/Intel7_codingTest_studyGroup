@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "배고파(Easy)", "배고�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "드랍더비트", "드랍더비트\드랍더비트.vcxproj", "{7D9216A3-04F3-4F7A-B337-85CCEBC23072}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-LSB", "4-LSB\4-LSB.vcxproj", "{B15341CE-8988-4BDA-84FE-D5304BBBBEF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{7D9216A3-04F3-4F7A-B337-85CCEBC23072}.Release|x64.Build.0 = Release|x64
 		{7D9216A3-04F3-4F7A-B337-85CCEBC23072}.Release|x86.ActiveCfg = Release|Win32
 		{7D9216A3-04F3-4F7A-B337-85CCEBC23072}.Release|x86.Build.0 = Release|Win32
+		{B15341CE-8988-4BDA-84FE-D5304BBBBEF6}.Debug|x64.ActiveCfg = Debug|x64
+		{B15341CE-8988-4BDA-84FE-D5304BBBBEF6}.Debug|x64.Build.0 = Debug|x64
+		{B15341CE-8988-4BDA-84FE-D5304BBBBEF6}.Debug|x86.ActiveCfg = Debug|Win32
+		{B15341CE-8988-4BDA-84FE-D5304BBBBEF6}.Debug|x86.Build.0 = Debug|Win32
+		{B15341CE-8988-4BDA-84FE-D5304BBBBEF6}.Release|x64.ActiveCfg = Release|x64
+		{B15341CE-8988-4BDA-84FE-D5304BBBBEF6}.Release|x64.Build.0 = Release|x64
+		{B15341CE-8988-4BDA-84FE-D5304BBBBEF6}.Release|x86.ActiveCfg = Release|Win32
+		{B15341CE-8988-4BDA-84FE-D5304BBBBEF6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
