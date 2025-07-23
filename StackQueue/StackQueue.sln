@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "스택", "스택\스택.vcxproj", "{4F351B25-30E2-4F79-A638-7D7B5C4AF412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F351B25-30E2-4F79-A638-7D7B5C4AF412}.Debug|x64.ActiveCfg = Debug|x64
+		{4F351B25-30E2-4F79-A638-7D7B5C4AF412}.Debug|x64.Build.0 = Debug|x64
+		{4F351B25-30E2-4F79-A638-7D7B5C4AF412}.Debug|x86.ActiveCfg = Debug|Win32
+		{4F351B25-30E2-4F79-A638-7D7B5C4AF412}.Debug|x86.Build.0 = Debug|Win32
+		{4F351B25-30E2-4F79-A638-7D7B5C4AF412}.Release|x64.ActiveCfg = Release|x64
+		{4F351B25-30E2-4F79-A638-7D7B5C4AF412}.Release|x64.Build.0 = Release|x64
+		{4F351B25-30E2-4F79-A638-7D7B5C4AF412}.Release|x86.ActiveCfg = Release|Win32
+		{4F351B25-30E2-4F79-A638-7D7B5C4AF412}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE21E9E4-22C5-45BD-807F-2A5DA35BAD18}
+	EndGlobalSection
+EndGlobal
