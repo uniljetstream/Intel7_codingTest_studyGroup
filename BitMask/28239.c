@@ -1,45 +1,48 @@
 #include <stdio.h>
-//코드는 동작하는 오답? 이유 찾기!
-int func(long long int num)
+
+int countOne(long long int num1)
 {
-    if ((num & (num - 1)) == 0)
+    int count = 0;
+    for (int i = 0; i < 64; i++)
+    {
+        if ((num1 >> i) & 1)
+        {
+            count++;
+        }
+    }
+    // printf("count : %d\n", count);
+    if (count == 1)
         return 1;
     else
         return 0;
+    // return count;
 }
 
 int main()
 {
-    int n, count;
-    long long int m, temp;
+    int n;
+    long long int m;
+
     scanf("%d", &n);
 
-    for (int i = 0; i < n; i++)
+    for (int j = 0; j < n; j++)
     {
         scanf("%lld", &m);
-
-        if (func(m)) // 만약 2의 n승 이면
+        if (countOne(m) == 1)
         {
-            m >>= 1;
-            for (int j = 0; j < 18; j++)
+            for (int i = 0; i < 64; i++)
             {
-                if (m & 1)
-                {
-                    printf("%d %d", j, j);
-                }
-                m >>= 1;
+                if ((m >> i) & 1)
+                    printf("%d %d", i - 1, i - 1);
             }
             printf("\n");
         }
         else
         {
-            for (int j = 0; j < 18; j++)
+            for (int i = 0; i < 64; i++)
             {
-                if (m & 1)
-                {
-                    printf("%d ", j);
-                }
-                m >>= 1;
+                if ((m >> i) & 1)
+                    printf("%d ", i);
             }
             printf("\n");
         }

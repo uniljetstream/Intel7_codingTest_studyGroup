@@ -1,19 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
-/*
-1. 입력받은 자연수를 이진수 문자열로 만들기
-2. 끝에 네 자리만 추출
-3. 이어붙히고 이걸 4자리 자연수로 출력
-*/
+#include <math.h>
 
 int main()
 {
-    int num1, num2, num3;
-    char arr[11];
-
-    scanf("%d", &num1);
-    // scanf("%d", &num2);
-    // scanf("%d", &num3);
-
-    printf("%d", itoa(num1, arr, 2));
+   int n, sum=0, index=0;
+   int PrePw[12];
+    
+   for(int i=0;i<3;i++) //이진수의 각 자리가 1인지 확인
+   {
+      scanf("%d", &n);
+      for (int i=3;i>-1 ; i--) {
+       PrePw[index]=(n>>i)&1;
+       //printf("%d", PrePw[index]);
+       index++;
+      }
+    }
+    //printf("\n");
+    for(int i=11;i>-1;i--){
+        if(PrePw[11-i])
+            sum+=(int)pow(2,i);
+            //printf("%d\n", sum);
+    }
+    printf("%04d", sum);
 }

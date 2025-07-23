@@ -2,15 +2,21 @@
 
 int main()
 {
-    int ari = 1023;
-    int s, m, calc;
-    scanf("%d %d", &s, &m);
-    if (s <= ari)
+    int n, reverse2_n;
+    int count = 0, temp;
+    scanf("%d", &n);
+
+    reverse2_n = ~n + 1;
+
+    temp = n ^ reverse2_n;
+
+    for (int i = 0; i < 32; i++)
     {
-        printf("%s", "No thanks");
-        return 0;
+        if (temp & 1)
+        {
+            count++;
+        }
+        temp >>= 1;
     }
-    
-    calc = s - ari;
-    if
+    printf("%d", count);
 }
