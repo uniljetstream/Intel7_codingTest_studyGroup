@@ -18,5 +18,8 @@
     <ClCompile Include="24389_jinsu.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="32343_jinsu.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
