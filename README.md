@@ -24,9 +24,10 @@
 6. git checkout 본인 깃허브 닉네임
    - ex) git checkout beakjoon
 8. 경로 옆에 괄호로 본인 깃허브 닉네임으로 변경된 것 확인
-9. git config --global user.name
-   git config --global user.email
-   -설정하기
+9. Git 사용자 정보 설정하기  
+   - `git config --global user.name "사용자이름"`  
+   - `git config --global user.email "이메일주소"`
+
   - **항상 본인 브렌치에서 작업하고 업로드 하세요!!!**
 ## 3. 업로드 다운로드 설정
 1. 업스트림 설정
