@@ -1,36 +1,22 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #pragma warning(disable:4996)
 
 int main()
 {
-    int won, cookie;
+    int won, coo;
     int ari = 1023;
 
-    scanf("%d %d", &won, &cookie);
+    scanf("%d %d", &won, &coo);
 
-    int diff = won - ari;
+    
 
-    if (diff <= 0)
+    if ((won - ari) <= 0)
     {
         printf("No thanks");
-        return 0;
+        
     }
 
-    if (diff % cookie != 0)
-    {
-        printf("Impossible");
-        return 0;
-    }
-
-    int money = diff / cookie;
-
-    if (money == 0)
-    {
-        printf("Impossible");
-        return 0;
-    }
-
-    if ((money & (money - 1)) == 0) //impissible이 안나옴....
+    else if (((won - ari) & coo) == (won -ari))
     {
         printf("Thanks");
     }
@@ -38,6 +24,5 @@ int main()
     {
         printf("Impossible");
     }
-
     return 0;
 }
