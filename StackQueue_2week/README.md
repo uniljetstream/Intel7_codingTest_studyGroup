@@ -1,5 +1,26 @@
 # 2주차_스택과 큐
 
+## 스택 / 큐
+- 사용 언어 : C / C++<br>
+- 풀지 못해도 문제는 읽고 오기!
+- 풀었는지 상관없이, 다른 사람 풀이가 궁금한 문제는 체크하고 공유하기!
+
+### 백준
+
+- <a href="https://www.acmicpc.net/problem/10828" style="color: blue;">스택</a>
+- <a href="https://www.acmicpc.net/problem/12605" style="color: blue;">단어순서 뒤집기</a>
+- <a href="https://www.acmicpc.net/problem/10845" style="color: blue;">큐</a>
+- <a href="https://www.acmicpc.net/problem/2164" style="color: blue;">카드2</a>
+- <a href="https://www.acmicpc.net/problem/1158" style="color: blue;">요세푸스</a> ⭐ 
+- <a href="https://www.acmicpc.net/problem/12789" style="color: blue;">도키도키 간식드리미</a>
+
+### 프로그래머스
+
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906" style="color: blue;">같은 숫자는 싫어</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42586" style="color: blue;">기능개발</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12909" style="color: blue;">올바른 괄호</a>⭐ 
+
+
 관리를 위해 github의파일트리를 교체했습니다.
 
 아래 내용을 따라 브랜치 설정을 다시 해주세요
