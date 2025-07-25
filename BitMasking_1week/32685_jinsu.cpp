@@ -5,19 +5,32 @@
 
 int main()
 {
-	int num1, num2, num3;
-	int total_num = 0;
-	scanf("%d %d %d", &num1, &num2, &num3);
-
-	num1 = (num1 & 0x0f)<<8;
-	num2 = (num2 & 0x0f)<<4;
-	num3 = num3 & 0x0f;
-	
-	total_num = num1 | num2 | num3;
-
-	printf("%04d", total_num);
+	int ari_money = 1023;
+	int kugi_money, sandwich;
 	
 
+	scanf("%d %d", &sandwich, &kugi_money);
+
+	
+	if (sandwich <= 1023)
+	{
+		printf("No thanks");
+	}
+	else
+	{
+		 int need_money = sandwich - ari_money;
+		 need_money = need_money & 0x11111111;
+
+		 if ((need_money & kugi_money)<need_money)
+		 {
+			 printf("Impossible");
+		 }
+
+		 else
+		 {
+			 printf("Thanks");
+		 }
+	}
 
 
 

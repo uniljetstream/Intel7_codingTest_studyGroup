@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="32685_jinsu.cpp">
+    <ClCompile Include="12605_jinsu.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
