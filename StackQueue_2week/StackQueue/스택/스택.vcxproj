@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{efdf1c61-5915-408c-bf7f-b167df9e40db}</ProjectGuid>
-    <RootNamespace>카드2</RootNamespace>
+    <ProjectGuid>{1cb83c22-a951-4cf0-ba50-ecf38d6fdbc5}</ProjectGuid>
+    <RootNamespace>스택</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
