@@ -30,6 +30,7 @@ git pull
 
 
 ```bash
+git branch -D 기존브렌치
 git checkout -b 깃허브닉네임    #브렌치 생성
 cd StackQueue_2week
 mkdir 깃허브닉네임_w2
