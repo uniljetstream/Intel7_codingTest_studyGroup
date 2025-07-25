@@ -60,3 +60,4 @@ git config --global user.email "이메일주소"
    - 충돌이 날경우 해당 부분을 직접 수정 후 git add > git commit > git push를 차례로 수행
 
 ## git bash에서는 리눅스 명령어 사용 가능 ls, cd, mkdir, rm, cp 등.......
+
