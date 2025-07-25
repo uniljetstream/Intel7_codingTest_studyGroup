@@ -25,8 +25,7 @@
 
 - <a href="https://www.acmicpc.net/problem/2493" style="color: blue;">탑</a>
 - <a href="https://www.acmicpc.net/problem/6198" style="color: blue;">옥상 정원 꾸미기</a>
-- <a href="https://www.acmicpc.net/problem/17298" style="color: blue;">오큰수</a>⭐ 
-
+- <a href="https://www.acmicpc.net/problem/17298" style="color: blue;">오큰수</a>
 
 ------------------------------------
 관리를 위해 github의파일트리를 교체했습니다.
