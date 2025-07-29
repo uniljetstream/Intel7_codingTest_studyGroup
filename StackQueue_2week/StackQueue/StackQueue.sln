@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "큐", "큐\큐.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "올바른괄호", "올바른괄호\올바른괄호.vcxproj", "{11F4F37B-C9D7-421D-A183-BA45EACF8293}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "같은숫자는싫어", "같은숫자는싫어\같은숫자는싫어.vcxproj", "{8D0B1EC4-0DCF-4219-A8B3-61A620B7BA41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{11F4F37B-C9D7-421D-A183-BA45EACF8293}.Release|x64.Build.0 = Release|x64
 		{11F4F37B-C9D7-421D-A183-BA45EACF8293}.Release|x86.ActiveCfg = Release|Win32
 		{11F4F37B-C9D7-421D-A183-BA45EACF8293}.Release|x86.Build.0 = Release|Win32
+		{8D0B1EC4-0DCF-4219-A8B3-61A620B7BA41}.Debug|x64.ActiveCfg = Debug|x64
+		{8D0B1EC4-0DCF-4219-A8B3-61A620B7BA41}.Debug|x64.Build.0 = Debug|x64
+		{8D0B1EC4-0DCF-4219-A8B3-61A620B7BA41}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D0B1EC4-0DCF-4219-A8B3-61A620B7BA41}.Debug|x86.Build.0 = Debug|Win32
+		{8D0B1EC4-0DCF-4219-A8B3-61A620B7BA41}.Release|x64.ActiveCfg = Release|x64
+		{8D0B1EC4-0DCF-4219-A8B3-61A620B7BA41}.Release|x64.Build.0 = Release|x64
+		{8D0B1EC4-0DCF-4219-A8B3-61A620B7BA41}.Release|x86.ActiveCfg = Release|Win32
+		{8D0B1EC4-0DCF-4219-A8B3-61A620B7BA41}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
