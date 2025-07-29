@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="progress.cpp" />
     <ClCompile Include="samenumber.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
