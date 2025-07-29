@@ -1,5 +1,5 @@
-#include <iostream>
 #include <deque>
+#include <iostream>
 
 using namespace std;
 
@@ -10,13 +10,16 @@ int main()
 
     cin >> n;
 
-    for(int i=0;i<n;i++)
+    for (int i = 1; i < n+1; i++)
         card.push_back(i);
 
-    card.pop_front();
+    // cout << card.front() << endl;
 
-    while(card.size() == 1)
+    while (card.size() != 1)
     {
-        
+        card.pop_front();
+        card.push_back(card.front());
+        card.pop_front();
     }
+    cout << card.front() << endl;
 }
