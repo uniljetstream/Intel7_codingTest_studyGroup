@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{19e1ccd4-2fc1-453a-9139-7eb9c46e4ebc}</ProjectGuid>
-    <RootNamespace>단어순서뒤집기</RootNamespace>
+    <ProjectGuid>{11f4f37b-c9d7-421d-a183-ba45eacf8293}</ProjectGuid>
+    <RootNamespace>올바른괄호</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
