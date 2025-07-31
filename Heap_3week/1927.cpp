@@ -27,5 +27,24 @@ int main()
     int n, x;
     priority_queue<int, vector<int>, greater<int>> minHeap;
 
+    cin >> n;
 
+    for(int i=0;i<n;i++)
+    {
+        cin >> x;
+        if(x == 0)
+        {
+            if(minHeap.empty())
+               cout << "0" << '\n';
+            else
+            {
+                cout << minHeap.top() << '\n';
+                minHeap.pop();
+            }
+        }
+        else
+        {
+            minHeap.push(x);
+        }
+    }
 }
