@@ -1,7 +1,7 @@
-#include <iostream>
-#include <vector>
 #include <algorithm>
+#include <iostream>
 #include <queue>
+#include <vector>
 
 using namespace std;
 
@@ -16,17 +16,21 @@ int mean(vector<int> numVector)
 
 int median(vector<int> numVector)
 {
-    return numVector.at(numVector.size()/2);
+    return numVector.at(numVector.size() / 2);
 }
 
-int mode(vector<int> numVector)
-{
-    
-}
+// int mode(vector<int> numVector)
+// {
+
+// }
 
 int range(vector<int> numVector)
 {
     sort(numVector.begin(), numVector.end());
+    cout << "----" << endl;
+    for (int num : numVector)
+        cout << num << endl;
+    cout << "----" << endl;
     return numVector.back() - numVector.front();
 }
 
@@ -43,8 +47,8 @@ int main()
         numVector.push_back(num);
     }
 
-    cout << mean(numVector) << endl;    //산술평균
-    cout << median(numVector) << endl;  //중앙값
-    cout << mode(numVector) << endl;    //최빈값
-    cout << range(numVector) << endl;   //범위
+    cout << "평균" << mean(numVector) << endl;   // 산술평균
+    cout << "중앙값" << median(numVector) << endl; // 중앙값
+    // cout << mode(numVector) << endl;    //최빈값
+    cout << "범위" << range(numVector) << endl; // 범위
 }
