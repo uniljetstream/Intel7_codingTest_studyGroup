@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "최소힙", "최소힙\최�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "최대힙", "최대힙\최대힙.vcxproj", "{98A8091F-DF8D-449B-AC02-288B4423A250}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N번째큰수", "N번째큰수\N번째큰수.vcxproj", "{D61B82AE-799A-4CD0-973D-3C5F5D459223}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{98A8091F-DF8D-449B-AC02-288B4423A250}.Release|x64.Build.0 = Release|x64
 		{98A8091F-DF8D-449B-AC02-288B4423A250}.Release|x86.ActiveCfg = Release|Win32
 		{98A8091F-DF8D-449B-AC02-288B4423A250}.Release|x86.Build.0 = Release|Win32
+		{D61B82AE-799A-4CD0-973D-3C5F5D459223}.Debug|x64.ActiveCfg = Debug|x64
+		{D61B82AE-799A-4CD0-973D-3C5F5D459223}.Debug|x64.Build.0 = Debug|x64
+		{D61B82AE-799A-4CD0-973D-3C5F5D459223}.Debug|x86.ActiveCfg = Debug|Win32
+		{D61B82AE-799A-4CD0-973D-3C5F5D459223}.Debug|x86.Build.0 = Debug|Win32
+		{D61B82AE-799A-4CD0-973D-3C5F5D459223}.Release|x64.ActiveCfg = Release|x64
+		{D61B82AE-799A-4CD0-973D-3C5F5D459223}.Release|x64.Build.0 = Release|x64
+		{D61B82AE-799A-4CD0-973D-3C5F5D459223}.Release|x86.ActiveCfg = Release|Win32
+		{D61B82AE-799A-4CD0-973D-3C5F5D459223}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
