@@ -1,7 +1,7 @@
 #include <iostream>
 #include <queue> // 우선순위 큐(priority_queue)를 사용
 #include <vector>
-#include <functional> // greater를 사용하기 위한 헤더파일
+#include <functional>
 using namespace std;
 
 int main() {
@@ -11,7 +11,7 @@ int main() {
 	int N, x;
 	cin >> N;
 
-	priority_queue<int, vector<int>, greater<int>> minHeap;
+	priority_queue<int, vector<int>, less<int>> minHeap;
 	// priority_queue<T, vector<T>, greater<T>> => 최소 힙
 	// priority_queue<자료형, 컨테이너, 비교함수>
 	// 자료형	큐에 저장할 자료의 타입 (예: int, pair<int,int>, 사용자 정의 구조체 등)
