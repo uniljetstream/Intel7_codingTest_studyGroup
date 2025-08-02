@@ -75,12 +75,13 @@ dkms.conf
 # Executables
 
 ### VisualStudioCode ###
+.vscode/
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
 .history/
@@ -139,6 +140,7 @@ $RECYCLE.BIN/
 mono_crash.*
 
 # Build results
+build/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -501,6 +503,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# clang-foramt
+.clang-format
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
