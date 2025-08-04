@@ -1,19 +1,27 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
+#include <queue>
 
 using namespace std;
 
 int main()
 {
-    freopen("input.txt", "r", stdin);
-    int N, n;
-    vector<int> v(N*N);
-    make_heap(v.begin(), v.end());
+    ios::sync_with_stdio(false);
+    // freopen("input.txt", "r", stdin);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    priority_queue<int, vector<int>, greater<int>> pq;
+    int N;
+    long long n;
+    cin >> N;
 
-    int cnt = 0;
-    while(v.size())
+    for (int i = 0; i < N * N; i++)
     {
-        cout << cnt++;
+        cin >> n;
+        pq.emplace(n);
+        if (pq.size() > N)
+        {
+            pq.pop();
+        }
     }
+    cout << pq.top();
 }
