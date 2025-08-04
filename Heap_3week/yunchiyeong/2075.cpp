@@ -1,14 +1,19 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
 int main()
 {
     freopen("input.txt", "r", stdin);
-    int n;
+    int N, n;
+    vector<int> v(N*N);
+    make_heap(v.begin(), v.end());
 
-    cin >> n;
-
-    
+    int cnt = 0;
+    while(v.size())
+    {
+        cout << cnt++;
+    }
 }
