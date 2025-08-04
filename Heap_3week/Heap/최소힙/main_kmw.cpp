@@ -1,5 +1,5 @@
 #include <iostream>
-#include <queue> // ¿ì¼±¼øÀ§ Å¥(priority_queue)¸¦ »ç¿ë
+#include <queue> // ìš°ì„ ìˆœìœ„ í(priority_queue)ë¥¼ ì‚¬ìš©
 #include <vector>
 #include <functional>
 using namespace std;
@@ -11,13 +11,13 @@ int main() {
 	int N, x;
 	cin >> N;
 
-	priority_queue<int, vector<int>, less<int>> minHeap;
-	// priority_queue<T, vector<T>, greater<T>> => ÃÖ¼Ò Èü
-	// priority_queue<ÀÚ·áÇü, ÄÁÅ×ÀÌ³Ê, ºñ±³ÇÔ¼ö>
-	// ÀÚ·áÇü	Å¥¿¡ ÀúÀåÇÒ ÀÚ·áÀÇ Å¸ÀÔ (¿¹: int, pair<int,int>, »ç¿ëÀÚ Á¤ÀÇ ±¸Á¶Ã¼ µî)
-	// ÄÁÅ×ÀÌ³Ê	³»ºÎÀûÀ¸·Î µ¥ÀÌÅÍ¸¦ ÀúÀåÇÒ ÀÚ·á±¸Á¶(ÀÏ¹İÀûÀ¸·Î std::vector)
-	// ºñ±³ÇÔ¼ö	¿ì¼±¼øÀ§¸¦ °áÁ¤ÇÏ´Â ºñ±³ ¿¬»êÀÚ(ÃÖ¼Ò Èü¿¡¼­´Â std::greater<T>)
-	// ±âº»ÀûÀ¸·Î priority_queue<T>´Â ÃÖ´ë Èü => priority_queue<T, vector<T>, less<T>>
+	priority_queue<int, vector<int>, greater<int>> minHeap;
+	// priority_queue<T, vector<T>, greater<T>> => ìµœì†Œ í™
+	// priority_queue<ìë£Œí˜•, ì»¨í…Œì´ë„ˆ, ë¹„êµí•¨ìˆ˜>
+	// ìë£Œí˜•	íì— ì €ì¥í•  ìë£Œì˜ íƒ€ì… (ì˜ˆ: int, pair<int,int>, ì‚¬ìš©ì ì •ì˜ êµ¬ì¡°ì²´ ë“±)
+	// ì»¨í…Œì´ë„ˆ	ë‚´ë¶€ì ìœ¼ë¡œ ë°ì´í„°ë¥¼ ì €ì¥í•  ìë£Œêµ¬ì¡°(ì¼ë°˜ì ìœ¼ë¡œ std::vector)
+	// ë¹„êµí•¨ìˆ˜	ìš°ì„ ìˆœìœ„ë¥¼ ê²°ì •í•˜ëŠ” ë¹„êµ ì—°ì‚°ì(ìµœì†Œ í™ì—ì„œëŠ” std::greater<T>)
+	// ê¸°ë³¸ì ìœ¼ë¡œ priority_queue<T>ëŠ” ìµœëŒ€ í™ => priority_queue<T, vector<T>, less<T>>
 
 	for (int i = 0; i < N; i++) {
 		cin >> x;
