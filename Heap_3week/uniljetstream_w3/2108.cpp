@@ -28,34 +28,29 @@ int median(vector<int> numVector)
 
 int mode(vector<int> numVector)
 {
-    if (numVector.size() == 1) // 원소가 하나면 예외 처리리
-        return numVector.front();
+    // 1. 최빈값 찾기,  하나면 해당 값 반환
     map<int, int> modeMap;
-    for (int nV : numVector)
-        modeMap[nV]++;
-
-    // 1. 최빈값이 뭔지 찾기
-    vector<pair<int, int>> frequencyVec(modeMap.begin(), modeMap.end()); // 벡터로 만들어서
-    sort(frequencyVec.begin(), frequencyVec.end(),
-         [](pair<int, int> num1, pair<int, int> num2) { return num1.second < num1.second; }); // second 기준 정렬하기
-
-    int maxCount = frequencyVec.at(frequencyVec.size() - 1).second;  // 가장 큰 횟수
-    if (maxCount != frequencyVec.at(frequencyVec.size() - 2).second) // 마지막 원소 두개 비교 : 최빈값이 1개이면 리턴
-        return frequencyVec.at(frequencyVec.size() - 1).first;
-
-    // 2. 최빈값을 가진 키가 2개 이상 이면 최빈값을 가진 원소들로 map 만들기
-    vector<pair<int, int>> RepeatedValueVec;
-    for (pair<int, int> fV : frequencyVec)
+    for (int n : numVector)
     {
-        if (fV.second == maxCount)
-            RepeatedValueVec.push_back(fV);
+        modeMap[n]++;
     }
 
-    // 3.새로 만들어진 맵을 벡터?로 바꿔서 정렬하기
-    sort(RepeatedValueVec.begin(), RepeatedValueVec.end(),
-         [](pair<int, int> num1, pair<int, int> num2) { return num1.second < num1.second; }); // second 기준 정렬하기
-    // 4. 두 번째 원소의 first 리턴하기
-    return RepeatedValueVec.at(1).first;
+    // 사이즈가 1이거나, 최빈값을 가진 키가 하나면 그거를 리턴하자
+    vector<pair<int, int>> modeVec(modeMap.begin(), modeMap.end());
+    sort(modeVec.begin(), modeVec.end(), [](pair<int, int> val1, pair<int, int> val2) { return val1.second < val2.second; });
+    if (modeVec.size() == 1 || (modeVec.back().second != modeVec.at(modeVec.size() - 2).second))
+        return modeVec.back().first;
+
+    // 2. 최빈값이 여러 개면? 두 번째로 작은 수 찾기(맵은 어차피 키 값을 기준으로 정렬인데?)
+    int modeVal = modeVec.back().second;
+    for (map<int, int>::iterator it = modeMap.begin(); it != modeMap.end(); it++)
+    {
+        if (it->second != modeVal)
+            modeMap.erase(it);
+    }
+    map<int, int>::iterator it = modeMap.begin();
+    it++;
+    return it->first;
 }
 
 int range(vector<int> numVector)
