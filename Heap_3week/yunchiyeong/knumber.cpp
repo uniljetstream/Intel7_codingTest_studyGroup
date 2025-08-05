@@ -8,13 +8,13 @@ using namespace std;
 vector<int> solution(vector<int> array, vector<vector<int>> commands) {
     vector<int> answer;
     vector<int> v;
-    for(auto comm : commands)
+    for(vector<vector<int>>::iterator it = commands.begin(); it != commands.end(); ++it)
     {
         // cout << comm.at(0) << " " << comm.at(1) << " " << comm.at(2);
         // cout << endl; 
-        v.assign(array.begin() + comm.at(0) - 1, array.begin() + comm.at(1));
+        v.assign(array.begin() + it->at(0) - 1, array.begin() + it->at(1));
         sort(v.begin(), v.end());
-        answer.push_back(v.at(comm.at(2) - 1));
+        answer.push_back(v.at(it->at(2) - 1));
     }
     // for(auto t : v)
     //     cout << t << " ";
