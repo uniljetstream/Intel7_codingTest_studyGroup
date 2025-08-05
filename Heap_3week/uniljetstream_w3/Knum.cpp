@@ -1,21 +1,27 @@
+#include <string>
 #include <vector>
-// #include <iostream>
 #include <algorithm>
 
 using namespace std;
 
-vector<int> solution(vector<int> array, vector<vector<int>> commands) {
-    vector<int> answer;
+string solution(vector<int> numbers) {
+    string answer = "";
+    //1. 아스키코드로 정렬->2번예시 불가
+    //2. 문자열 더하기 이후 앞뒤비교 정렬 어떻게 함?->람다!
     
-    for(vector<int> c:commands)
-    {
-        vector<int> temp(array.begin()+(c.at(0)-1), array.begin()+(c.at(1)));
-        sort(temp.begin(), temp.end());
-        // for(int t:temp)
-        //     cout << t <<" ";
-        answer.push_back(temp.at(c.at(2)-1));
-        // cout << endl;
-    }
+    //일단 원소를 문자열로 바꾸기
+    vector<string> strVec;
+    for(int n:numbers)
+        strVec.push_back(to_string(n));
     
+    //sort는 모든 대상이 세번째 조건을 충족할 때까지 동작
+    sort(strVec.begin(), strVec.end(), [](string a, string b){return a+b > b+a;});
+    
+    for(string sV:strVec)
+        answer.append(sV);
+    
+    //모든 숫자가 0이 경우 case 11
+    if(strVec.at(0)=="0")
+        return "0";
     return answer;
 }
