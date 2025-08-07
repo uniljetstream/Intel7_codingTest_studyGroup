@@ -13,16 +13,6 @@ int main()
     for(int i=0;i<n;i++)
     {
 
-        cin>>start>>end;
-        if(room.empty())
-            room[start]=end;
-        else if(--room.end()->second <= start) 
-            room[start]=end;
-
-        time++;
-        }
     }
-    cout << room.size()+cnt;
-    return 0;
 }
 
