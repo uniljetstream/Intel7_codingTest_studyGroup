@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "queue": "cpp",
+        "deque": "cpp",
+        "iostream": "cpp"
+    }
+}
