@@ -2,24 +2,32 @@
 #include <set>
 #include <string>
 
-usimg namespace std;
+using namespace std;
 
-int main
+int main()
 {
-    int n, m, size;
-    string line;
+    int n, m, size, answer=0;
+    string nline, mline;
     set<string> sets;
-    for(int i=0;i<n;i++)
+
+    cin >> n >> m;
+
+    for (int i = 0; i < n; i++)
     {
-        getline(cin, line);
-        sets.emplace(line);
+        cin >> nline;
+        sets.emplace(nline);
     }
 
-    size=sets.size();
-
-    for(int i=0;i<m;i++)
+    // for(string s:sets)
+    // {
+    //     cout << s << " ";
+    // }
+    for (int i = 0; i < m; i++)
     {
-        getline(cin, line);
-        sets.emplace(line);
+        cin >> mline;
+        answer += sets.count(mline);
+        // cout << i << ":" << answer << endl;
     }
+
+    cout << answer;
 }
