@@ -24,16 +24,17 @@ int main()
 
     string time, name;
 
-    while (!cin.eof()) // 입력 끝에 도달하면 정지
+    while (1) // 입력 끝에 도달하면 정지
     {
         cin >> time >> name;
+        if (cin.eof()) break;
 
-        int timeH{stoi(s.substr(0, 2))};
-        int timeM{stoi(s.substr(3, 5))};
-
-        if (sh < timeH || (sh < timeH && sm < timeM))
+        int timeH{stoi(time.substr(0, 2))};
+        int timeM{stoi(time.substr(3, 5))};
+        
+        if (sh > timeH || (sh == timeH && sm >= timeM))
             beforeStart.emplace(name);
-        else if ((eh > timeH || (eh > timeH && em > timeM)) && (qh < timeH || (qh < timeH && qm < timeM)))
+        else if ((eh < timeH || (eh == timeH && em <= timeM)) && (qh > timeH || (qh == timeH && qm >= timeM)))
         {
             end2strimingEnd.emplace(name);
         }
@@ -44,6 +45,7 @@ int main()
         if(beforeStart.find(e) != beforeStart.end())
             answer++;
     }
-    
+
     cout << answer << endl;
+    return 0;
 }
