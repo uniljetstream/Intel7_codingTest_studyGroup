@@ -127,8 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="17219_jinsu.cpp" />
-    <ClCompile Include="19583.cpp" />
+    <ClCompile Include="30105_jinsu.cpp" />
+    <ClCompile Include="완주하지못한사람.cpp" />
+    <ClCompile Include="의상.cpp" />
+    <ClCompile Include="포켓몬.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

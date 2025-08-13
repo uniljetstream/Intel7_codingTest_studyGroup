@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="17219_jinsu.cpp">
+    <ClCompile Include="30105_jinsu.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="19583.cpp">
+    <ClCompile Include="완주하지못한사람.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="의상.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="포켓몬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
