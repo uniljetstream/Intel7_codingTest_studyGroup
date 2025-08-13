@@ -21,21 +21,21 @@ Compare는 비교함수로 디폴트 값일 경우에는 최대 우선순위큐�
 
 int main()
 {
-    ios::sync_with_stdio(false);    //속도 개선 코드
+    ios::sync_with_stdio(false); // 속도 개선 코드
     cin.tie(NULL);
-    
+
     int n, x;
     priority_queue<int, vector<int>, greater<int>> minHeap;
 
     cin >> n;
 
-    for(int i=0;i<n;i++)
+    for (int i = 0; i < n; i++)
     {
         cin >> x;
-        if(x == 0)
+        if (x == 0)
         {
-            if(minHeap.empty())
-               cout << "0" << '\n';
+            if (minHeap.empty())
+                cout << "0" << '\n';
             else
             {
                 cout << minHeap.top() << '\n';
