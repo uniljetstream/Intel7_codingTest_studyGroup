@@ -531,3 +531,5 @@ FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,c,c++,visualstudio,visualstudiocode
 
+# MacOS
+.DS_Store
