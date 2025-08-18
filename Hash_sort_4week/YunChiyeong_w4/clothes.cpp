@@ -1,22 +1,24 @@
 #include <string>
 #include <vector>
 #include <iostream>
-#include <unordered_map>
+#include <map>
 
 using namespace std;
 
 int solution(vector<vector<string>> clothes) {
     int answer = 0;
 
-    unordered_multimap<string, string> u_m_map;
+    map<string, int> m;
 
-    for(auto a : clothes)
+    for(int i = 0; i < clothes.size(); i++)
     {
-        cout << a.at(0) << " " << a.at(1) << endl;
-        u_m_map.emplace(a.at(0), a.at(1));
+        m[clothes[i][1]]++;
     }
-    
 
+    for(auto& [key, value] : m)
+    {
+        cout << key << " " << value << '\n';
+    }
     return answer;
 }
 
