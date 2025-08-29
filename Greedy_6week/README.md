@@ -17,8 +17,8 @@
 - <a href="https://www.acmicpc.net/problem/2156" style="color: blue;">포도주 시식</a> [점화식 도출, 중급]
 - <a href="https://www.acmicpc.net/problem/12865" style="color: blue;">평범한 배낭</a> ⭐ [중급]
 - <a href="https://www.acmicpc.net/problem/10844" style="color: blue;">쉬운 계단수</a> [중급]
-- <a href="https://www.acmicpc.net/problem/2098" style="color: blue;">외판원 순회</a>   [프로그래머라면 알고 있어야할 역사적인 문제, 꼭 시도해보기] [도전 해보기]
-- <a href="https://www.acmicpc.net/problem/9251" style="color: blue;">LCS</a> [DP를 푸는 알고리즘 중 하나] [도전해보기]
+- <a href="https://www.acmicpc.net/problem/2098" style="color: blue;">외판원 순회</a>   [프로그래머라면 알고 있어야할 역사적인 문제, 꼭 시도해보기]
+- <a href="https://www.acmicpc.net/problem/9251" style="color: blue;">LCS</a> [DP를 푸는 알고리즘 중 하나]
 
 ## 프로그래머스
 
