@@ -50,13 +50,13 @@
 
 [3주차 Heap, Sort 문제보기](./Heap_Sort_3week/README.md)
 
-[4주차 Hash 문제보기](./Hash_sort_4week/README.md)
+[4주차 Hash 문제보기](./Hash_4week/README.md)
 
-[5주차 BruteForce 문제보기](./BruteForce_5week/README.md)
+[5주차 BruteForce 문제보기](./BruteForce_Greedy_5week/README.md)
 
-[6주차 Greedy 문제보기](./Greedy_6week/README.md)
+[6주차 Greedy 문제보기](./DP_6week/README.md)
 
-[7주차 DFS 문제보기](./DFS_7week/README.md)
+[7주차 DFS 문제보기](./DFS_BFS_7week/README.md)
 
 ### 2.2. 문제 풀이 및 코드 리뷰 방식
 
