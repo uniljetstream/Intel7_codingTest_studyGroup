@@ -82,25 +82,19 @@ Intel7_codingTest_studyGroup/
 ├── StackQueue_2week/          # 2주차: 스택, 큐
 │   ├── [member_name]/
 │   └── README.md
-├── Heap_3week/                # 3주차: 힙, 정렬
+├── Heap_Sort_3week/           # 3주차: 힙, 정렬
 │   ├── [member_name]/
 │   └── README.md
-├── Hash_sort_4week/           # 4주차: 해시
+├── Hash_4week/                # 4주차: 해시
 │   ├── [member_name]/
 │   └── README.md
-├── BruteForce_5week/          # 5주차: 완전탐색
+├── BruteForce_Greedy_5week/   # 5주차: 완전탐색
 │   ├── [member_name]/
 │   └── README.md
-├── Greedy_6week/              # 6주차: 그리디
+├── DP_6week/                  # 6주차: 그리디
 │   ├── [member_name]/
 │   └── README.md
-├── DFS_7week/                 # 7주차: DFS
-│   ├── [member_name]/
-│   └── README.md
-├── BFS_8week/                 # 8주차: BFS
-│   ├── [member_name]/
-│   └── README.md
-├── BinarySearch_9week/        # 9주차: 이진탐색
+├── DFS_BFS_7week/             # 7주차: DFS
 │   ├── [member_name]/
 │   └── README.md
 ├── HowTo.md                   # Git 사용 가이드
