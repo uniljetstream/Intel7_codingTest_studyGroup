@@ -48,7 +48,7 @@
 
 [2주차 Stack, Queue 문제보기](./StackQueue_2week/README.md)
 
-[3주차 Heap, Sort 문제보기](./Heap_3week/README.md)
+[3주차 Heap, Sort 문제보기](./Heap_Sort_3week/README.md)
 
 [4주차 Hash 문제보기](./Hash_sort_4week/README.md)
 
