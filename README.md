@@ -50,7 +50,7 @@
 
 [3주차 Heap, Sort 문제보기](./Heap_Sort_3week/README.md)
 
-[4주차 Hash 문제보기](./Hash_sort_4week/README.md)
+[4주차 Hash 문제보기](./Hash_4week/README.md)
 
 [5주차 BruteForce 문제보기](./BruteForce_5week/README.md)
 
